@@ -5,7 +5,7 @@
 
 enum { FILE_1, FILE_2, FILE_3, FILE_4, FILE_5, FILE_6, FILE_7, FILE_8, FILE_9 };
 enum { RANK_1, RANK_2, RANK_3, RANK_4, RANK_5, RANK_6, RANK_7, RANK_8, RANK_9 };
-enum {
+enum num {
     A1 =  1, B1, C1, D1, E1, F1, G1, H1, I1,
     A2 = 10, B2, C2, D2, E2, F2, G2, H2, I2,
     A3 = 19, B3, C3, D3, E3, F3, G3, H3, I3,
@@ -20,9 +20,6 @@ enum {
 typedef struct {
 	int *grid1[N][N];
 }s_board;
-
-
-
 
 extern void printBoard (const s_board *pos) ;
 #endif
