@@ -5,14 +5,10 @@
 
 int main () {
 
+	s_board board [1];
+	printBoard(board);
 	
-
-	if (solveSudoku(grid, 0, 0) == 1) {
-		printBoard(grid);
-	}
-	else
-		printf("No solution exists! ");
-
 	return 0;
+
 }
 
